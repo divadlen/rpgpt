@@ -18,8 +18,6 @@ def main():
     state['qa_cache'] = state.get('qa_cache', {})
     state['current_page'] = state.get('current_page', 0)
 
-    st.write(state['ANTHROPIC_API_KEY'])
-
     with st.sidebar:
         with st.expander('Cache'):
             st.write(state['qa_cache'])
@@ -61,20 +59,22 @@ def view_questions():
 
         # Popover for Pagination Controls
         with st.popover("Page Navigation"):
-            st.markdown("Navigate between pages and save your progress")
+            st.markdown(f"Total questions: {total_questions} | Total pages: {total_pages}")
 
             # current page
-            manual_page = st.number_input(
-                "Current page",
-                min_value=1,
-                max_value=total_pages,
-                value=state['current_page'] + 1,  # Starting value should be the current page + 1
-                step=1,
-                key="manual_page_input"
-            )
-            
+            with st.form("Go to Page"):
+                manual_page = st.number_input(
+                    "Current page",
+                    min_value=1,
+                    max_value=total_pages,
+                    value=state['current_page'] + 1,  # Starting value should be the current page + 1
+                    step=1,
+                    key="manual_page_input"
+                )
+                change_page_button = st.form_submit_button("Go")
+                
             # When the page number is changed, update current_page and rerun
-            if manual_page != state['current_page'] + 1:
+            if change_page_button and manual_page != state['current_page'] + 1:
                 state['current_page'] = manual_page - 1
                 st.rerun()
             

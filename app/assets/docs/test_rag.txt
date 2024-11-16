@@ -1,0 +1,1 @@
+The People Also Ask (PAA) Answer Generator is a tool that uses the OpenAI GPT-4o model and a SERP scraper to generate SEO optimized answers for the popular "People Also Ask" boxes on Google Search Result Pages (SERPs). It allows you to enter a location and keyword, then retrieves the current People Also Ask (PAA) box for that keyword and generates improved answers.
