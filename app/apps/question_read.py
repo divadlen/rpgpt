@@ -8,6 +8,7 @@ from utils.text import (
     infer_sector_rows,
     preprocess_data,
 )
+from utils.path_utils import get_file_path
 from utils.json_utils import custom_json_decoder
 
 
@@ -197,9 +198,9 @@ def load_qa_json():
 
 def rebuild_filtered_df(settings):
     """Rebuild the filtered dataframe based on the loaded settings."""
-    df = pd.read_csv('assets/samples/cdpq.csv')
+    df = pd.read_csv(get_file_path('cdpq.csv'))
     df.columns = [normalize_string(col) for col in df.columns]
-    sector_df = pd.read_csv('assets/samples/cdpq_sector_codes.csv', header=0)
+    sector_df = pd.read_csv(get_file_path('cdpq_sector_codes.csv'), header=0)
     sector_df.columns = [normalize_string(col) for col in sector_df.columns]
 
     # Reapply filters

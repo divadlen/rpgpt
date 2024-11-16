@@ -9,13 +9,14 @@ from utils.text import (
     infer_sector_rows,
     preprocess_data,
 )
+from utils.path_utils import get_file_path
 
 
 # load data as globals
-df = pd.read_csv('assets/samples/cdpq.csv')
+df = pd.read_csv(get_file_path('cdpq.csv'))
 df.columns = [normalize_string(col) for col in df.columns]
 df = df.replace({np.nan: 'NaN'})  # Replace NaNs with "NaN" string in the dataframe
-sector_df = pd.read_csv('assets/samples/cdpq_sector_codes.csv', header=0)
+sector_df = pd.read_csv(get_file_path('cdpq_sector_codes.csv'), header=0)
 sector_df.columns = [normalize_string(col) for col in sector_df.columns]
 
 
