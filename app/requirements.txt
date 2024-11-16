@@ -1,0 +1,7 @@
+streamlit==1.39.0
+hydralit==1.0.14
+hydralit_components==1.0.10
+numpy==1.26.4
+pandas==2.2.2
+
+anthropic==0.39.0
