@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 import hydralit as hy
 
 import os
-
+from utils.globals import AI_MODELS
 
 st.set_page_config(
   page_title="RPGPT",
@@ -17,16 +17,22 @@ over_theme = {'txc_inactive': '#FFFFFF', 'txc_active':'#A9DEF9'}
 navbar_theme = {'txc_inactive': '#FFFFFF','txc_active':'grey','menu_background':'white','option_active':'blue'}
 
 
+
+
 #---Start app---#
 def run_app():    
-  state['user_level'] = state.get('user_level', 1)
-  user_level = state.get("user_level", 1)
-  state['ADMIN_MODE'] = state.get("ADMIN_MODE", False)
-  state['ANTHROPIC_API_KEY'] = state.get("ANTHROPIC_API_KEY", None)
-
   #---Start Hydra instance---#
   hydra_theme = None # init hydra theme
-  
+
+  state['user_level'] = state.get('user_level', 1)
+  user_level = state.get("user_level", 1)
+
+  state['ADMIN_MODE'] = state.get("ADMIN_MODE", False)
+  state['ANTHROPIC_API_KEY'] = state.get("ANTHROPIC_API_KEY", None)
+  state['OPENAI_API_KEY'] = state.get("OPENAI_API_KEY", None)
+  state['available_models'] = state.get("available_models", [])
+  state['selected_model'] = state.get('selected_model', None)
+
 
   with st.sidebar:
     c1, c2 = st.columns([1, 1])
@@ -36,31 +42,69 @@ def run_app():
         if exit:
           state['ADMIN_MODE'] = False
           state['ANTHROPIC_API_KEY'] = None
+          state['OPENAI_API_KEY'] = None
+          state['available_models'] = []
+          state['selected_model'] = None
           st.experimental_fragment()
 
     with c2:
-      if state['ANTHROPIC_API_KEY'] is not None:
+      if state['ANTHROPIC_API_KEY'] is not None or state['OPENAI_API_KEY'] is not None:
         clear_api_key = st.button('Clear API Key')
         if clear_api_key:
           state['ANTHROPIC_API_KEY'] = None
+          state['OPENAI_API_KEY'] = None
+          state['available_models'] = []
+          state['selected_model'] = None
           st.experimental_fragment()
         
+    if state['ADMIN_MODE'] == False:
+      with st.popover('Admin Login'):
+        ADMIN_PW = st.text_input('Admin Password', value=None, type='password')
+        submit_button = st.button('Login', key='admin_login_submit')
+        if ADMIN_PW == st.secrets['ADMIN_PW'] and submit_button:
+          state['user_level'] = 2
+          state['ANTHROPIC_API_KEY'] = st.secrets['ANTHROPIC_API_KEY']
+          state['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+          state['ADMIN_MODE'] = True
+          st.experimental_fragment()
 
-    with st.form('Admin Login'):
-      ADMIN_PW = st.text_input('Admin Password', value=None, type='password')
-      submit_button = st.form_submit_button('Login')
-      if ADMIN_PW == st.secrets['ADMIN_PW'] and submit_button:
-        state['user_level'] = 2
-        state['ANTHROPIC_API_KEY'] = st.secrets['ANTHROPIC_API_KEY']
-        state['ADMIN_MODE'] = True
-        st.experimental_fragment()
+    if state['ANTHROPIC_API_KEY'] in [None, '']:
+      with st.popover('Anthropic API Key'):
+        ANTHROPIC_API_KEY = st.text_input('Anthropic API Key', value=None, type='password')
+        submit_button = st.button('Submit', key='anthropic_api_key_submit')
+        if ANTHROPIC_API_KEY not in [None, ''] and submit_button:
+          state['ANTHROPIC_API_KEY'] = ANTHROPIC_API_KEY   
+          st.experimental_fragment()
 
-    with st.form('Enter API Key'):
-      ANTHROPIC_API_KEY = st.text_input('Anthropic API Key', value=None, type='password')
-      submit_button = st.form_submit_button('Submit')
-      if ANTHROPIC_API_KEY and submit_button:
-        state['ANTHROPIC_API_KEY'] = ANTHROPIC_API_KEY
-        st.experimental_fragment()
+    if state['OPENAI_API_KEY'] in [None, '']:
+      with st.popover('OpenAI API Key'):
+        OPENAI_API_KEY = st.text_input('OpenAI API Key', value=None, type='password')
+        submit_button = st.button('Submit', key='openai_api_key_submit')
+        if OPENAI_API_KEY not in [None, ''] and submit_button:
+          state['OPENAI_API_KEY'] = OPENAI_API_KEY
+          st.experimental_fragment()
+
+    # Update available models dynamically based on API keys
+    updated_models = []
+    if state['ANTHROPIC_API_KEY']:
+        updated_models.extend(AI_MODELS['anthropic'])
+    if state['OPENAI_API_KEY']:
+        updated_models.extend(AI_MODELS['openai'])
+
+
+    # Synchronize state['available_models'] with the updated models
+    state['available_models'] = updated_models
+
+    # Display dropdown for model selection
+    if state['available_models']:
+        state['selected_model'] = st.selectbox(
+            'Select Model',
+            state['available_models'],
+            index=state['available_models'].index(state['selected_model']) if state['selected_model'] in state['available_models'] else 0
+        )
+    else:
+        st.error("No models available. Please enter an API key.")
+
 
     with st.expander('About'):
       st.info('Bru')
@@ -69,7 +113,6 @@ def run_app():
       st.write(""":large_blue_square: [Twitter](https://twitter.com/just_neldivad)""")
       st.markdown(""":notebook: [GitHub](https://github.com/neldivad)""")
       
-
 
 
 
