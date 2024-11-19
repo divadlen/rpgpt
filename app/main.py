@@ -4,7 +4,16 @@ import streamlit.components.v1 as components
 import hydralit as hy
 
 import os
+import uuid
 from utils.globals import AI_MODELS
+
+
+# check if it's linux so it works on Streamlit Cloud
+if os.name == 'posix':
+  __import__('pysqlite3')
+  import sys
+  sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+  
 
 st.set_page_config(
   page_title="RPGPT",
@@ -27,6 +36,7 @@ def run_app():
   state['user_level'] = state.get('user_level', 1)
   user_level = state.get("user_level", 1)
 
+  state['session_id'] = state.get('session_id', str(uuid.uuid4()))
   state['ADMIN_MODE'] = state.get("ADMIN_MODE", False)
   state['ANTHROPIC_API_KEY'] = state.get("ANTHROPIC_API_KEY", None)
   state['OPENAI_API_KEY'] = state.get("OPENAI_API_KEY", None)
@@ -154,6 +164,11 @@ def run_app():
     from apps.ai_chat import main
     main()
 
+  @app.addapp(title='RAG Chat')
+  def rag_chat():
+    from apps.rag_chat import main
+    main()
+
   @app.addapp(title='Logout')
   def logoutApp():
     from apps.logout import main
@@ -181,6 +196,7 @@ def run_app():
     complex_nav["Read Question"] = ['Read Question']
     complex_nav["Review Answer"] = ['Review Answer']
     complex_nav["AI Chat"] = ['AI Chat']
+    complex_nav["RAG Chat"] = ['RAG Chat']
 
     complex_nav["logout"] = ['Logout'] # key must be 'logout' idk why 
     return complex_nav

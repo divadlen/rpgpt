@@ -1,0 +1,609 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Telekom Malaysia Berhad (TM)
+DRAFT v5.5| Task Force on Climate-related Financial Disclosures (TCFD) Report 2023
+
+April 2024 
+Table of Contents
+
+
+TABLE OF CONTENTS	2
+ABBREVIATIONS	3
+1. OVERVIEW	5
+1.1 A MESSAGE FROM OUR GROUP CHIEF EXECUTIVE OFFICER	5
+1.2 EXECUTIVE SUMMARY	6
+1.3 ABOUT THE TASK FORCE ON CLIMATE-RELATED FINANCIAL DISCLOSURES	7
+1.4 OUR APPROACH	8
+2.GOVERNANCE	9
+2.1 THE BOARD’S OVERSIGHT OF CLIMATE-RELATED RISKS AND OPPORTUNITIES	9
+2.2 MANAGEMENT’S ROLE IN ASSESSING AND MANAGING CLIMATE-RELATED RISKS AND OPPORTUNITIES	10
+3.STRATEGY	12
+3.1 CLIMATE-RELATED RISKS AND OPPORTUNITIES THE ORGANISATION HAS IDENTIFIED OVER THE SHORT, MEDIUM, AND LONG TERM	12
+3.2 THE IMPACT OF CLIMATE-RELATED RISKS AND OPPORTUNITIES ON THE ORGANISATION’S BUSINESSES, STRATEGY, AND FINANCIAL PLANNING	14
+3.2.1 Transition risks and opportunities	15
+3.2.2 Physical risks	24
+3.3 THE RESILIENCE OF THE ORGANISATION’S STRATEGY, TAKING INTO CONSIDERATION DIFFERENT CLIMATE-RELATED SCENARIOS, INCLUDING A 2°C OR LOWER SCENARIO	25
+4.RISK MANAGEMENT	30
+4.1 THE ORGANISATION’S PROCESSES FOR IDENTIFYING AND ASSESSING CLIMATE-RELATED RISKS	30
+4.2 THE ORGANISATION’S PROCESSES FOR MANAGING CLIMATE-RELATED RISKS AND OPPORTUNITIES	31
+4.3 PROCESSES FOR IDENTIFYING, ASSESSING, AND MANAGING CLIMATE-RELATED RISKS ARE INTEGRATED INTO THE ORGANISATION’S OVERALL RISK MANAGEMENT	33
+5.METRICS AND TARGETS	35
+5.1 METRICS USED BY THE ORGANISATION TO ASSESS CLIMATE-RELATED RISKS AND OPPORTUNITIES IN LINE WITH ITS STRATEGY AND RISK MANAGEMENT PROCESS	35
+5.2 SCOPE 1, SCOPE 2 AND SCOPE 3 GREENHOUSE GAS EMISSIONS, AND THE RELATED RISKS	36
+5.3 TARGETS USED BY THE ORGANISATION TO MANAGE CLIMATE-RELATED RISKS AND OPPORTUNITIES AND PERFORMANCE AGAINST TARGETS	40
+6.NEXT STEPS	42
+6.1	NEXT STEPS IN OUR TCFD JOURNEY	42
+7.APPENDIX	43
+7.1 APPENDIX 1: TCFD RECOMMENDATION INDEX	43
+7.2 APPENDIX 2: CLIMATE SCENARIO MODEL ASSUMPTIONS	44
+
+ 
+Abbreviations
+
+Abbreviation	Detail
+BAU	Business as Usual 
+BCM	Business Continuity Management
+BCMS	Business Continuity Management System
+BCP	Business Continuity Plan
+BRIC	Board Risk and Investment Committee
+CCRO	Chief Corporate and Regulatory Officer
+CCUS	Carbon Capture, Utilisation, and Storage
+CNO	Chief Network Officer
+CRO	Chief Risk Officer
+CTIO	Chief Technology and Information Officer
+DEFRA	Department for Environment, Food, and Rural Affairs
+DRP	Disaster Recovery Plan
+EEO	Energy Efficiency Optimisation
+EMS	Environmental Management System
+EPC	Energy Performance Contract
+ERM	Enterprise Risk Management
+ESG	Environmental, Social and Governance
+EVP	Executive Vice President
+DRE	Disaster Recovery Equipment
+GCEO	Group Chief Executive Officer
+GCFO	Group Chief Financial Officer
+GEF	Grid Emission Factor
+GET	Green Electricity Tariff
+GHG	Greenhouse Gas
+GCR	Group Corporate Regulatory
+GRM	Group Risk Management
+IAR	Industrial All Risk 
+ICAO	International Civil Aviation Organization
+IEA	International Energy Agency
+IPCC	Intergovernmental Panel on Climate Change
+ISO	International Organization for Standardization
+KCI	Key Control Indicator
+KPI	Key Performance Indicator
+KRI	Key Risk Indicator 
+kWh	Kilowatt-hour
+L	Litres
+MC	Management Committee
+MEIH	Malaysian Energy Information Hub
+MWh	Megawatt-hour
+NGFS	Network for Greening the Financial System
+NZE	Net Zero Emissions
+RCP	Representative Concentration Pathway
+SSP	Shared Socioeconomic Pathways
+SWG	Sustainability Working Group
+TCFD	Task Force on Climate-related Financial Disclosures
+tCO2e	Tonnes of carbon emissions equivalent
+TM	Telekom Malaysia Berhad
+TNB	Tenaga Nasional Berhad
+USD	United States Dollar
+WEO	World Energy Outlook
+
+ 
+1.	Overview
+
+1.1 A message from our Group Chief Executive Officer
+
+Climate change poses a growing threat to society and economic sustainability with an urgent need to adapt and mitigate its impact. Currently, 196 countries have committed towards becoming net-zero emission nations, to address climate change while creating a transparent monitoring and reporting framework. As a party to the Paris Agreement, Malaysia has committed to reducing its greenhouse gas (GHG) emissions intensity of GDP by 45% by 2030 and becoming a carbon neutral nation by 2050. 
+TM has embarked on a long-term journey to meet the needs of its customers while tackling the challenges of climate change and its associated risks. We have aligned our efforts with Malaysia’s Net Zero 2050 ambition towards carbon neutrality. To this end, we have strengthened our climate-related governance and strategies while mitigating climate-related risks through our Business Continuity Management and Disaster Response efforts. To reduce our carbon footprint, we are actively pursuing energy efficiency strategies, while increasing the renewable energy mix within our operations. 
+We achieved a key milestone in our sustainability governance through the release of our first Task Force on Climate-related Financial Disclosures (TCFD) report last year, ahead of Bursa Malaysia’s 2025 requirement, enhancing our transparency around climate related risks and opportunities. I’m also pleased to report our progress in reducing carbon emissions by 22% against the 2019 baseline. This is a significant step in our journey towards a low-carbon future.
+Moving forward, we have continued to enhance our approach to support full climate-related disclosures to mitigate and adapt against climate-related risks. Our reporting has become more transparent to meet all disclosure guidelines according to the TCFD recommendations and identified initiatives to increase our resilience against climate change and protect the interests of our stakeholders in the long-term. 
+To communicate our initiatives with our stakeholders, we are pleased to present TM’s TCFD Report 2023. We reiterate our commitment to uphold accountability and transparency as we foster sustainability across all our businesses. We hope that this report will provide our stakeholders with valuable insights of how climate change might potentially affect our business, and our corresponding efforts to address these potential effects as we strive to become a Digital Powerhouse, towards a sustainable tomorrow.
+
+ 			
+
+
+ 
+1.2 Executive Summary
+
+In 2022, TM embarked on our inaugural climate risk disclosures through TCFD Reporting as part of our commitment to climate action and in preparation to meet Bursa Malaysia’s TCFD-aligned reporting requirement by the financial year end 20252. The report was aligned to the TCFD Framework, addressing recommended disclosures across four (4)  core elements throughout the financial year 2022. Through this exercise, TM  addressed nine (9) of eleven (11) TCFD recommendations, with the aim of continuously addressing the gaps and progress towards full climate risk disclosures. 
+As of April 2024, we are of the view that we meet the minimum requirements of all eleven (11) TCFD recommendations for the financial year ended 31 December 2023 . Moving forward, we will continuously enhance our approaches in managing climate related risks and opportunities to further align with global best practices. This includes the addressing the following recommendations in stages by December 2026  : 
+•	Governance: We have refreshed our current sustainability governance structure. Moving forward, we seek to formalise the role of the Board and BRIC by outlining their roles for climate change related matters, within their sustainability oversight scope. We will also concentrate our efforts to equip our people with required knowledge and competencies, to better facilitate their management and oversight of climate risks and opportunities.
+•	Strategy: As we have begun our efforts to include climate related considerations as part of our business and financial planning, we are currently developing our decarbonisation strategy and pathways, and better understand our challenges and limitations. In this effort, we seek to establish the linkage between our historical GHG performance in line with the national Net Zero 2050 aspiration. In addition, we will continue to conduct feasibility assessments on short-, medium-, and long-term initiatives, based on our historical performance.  
+•	Risk Management: We have refreshed our existing ERM framework to include climate considerations into our risk appetite, guidance on integrating climate risk data into our strategy and business planning methodologies and updating our risk categorisation and risk matrix criteria. As our next steps, we will consider more proactive decarbonisation approach in our risk management and internal control practices.
+Metrics and targets: As our current focus is GHG emission reduction, we will continue to address gaps in our emissions data, with the goal to collect and disclose the entirety of our Scope 1, 2 and 3 emissions. Therefore, we are currently refining our GHG accounting and reporting by strengthening our baselines for Scope 1 and Scope 2 emissions. Moving forward, we aspire to expand the reporting and coverage of appropriate Scope 3 categories, with assurance. 
+We are pleased to share the Task Force on Climate-related Financial Disclosures (TCFD) Report 2023. This report provides an update to TM’s TCFD Reporting and signals our ongoing ambition to increase transparency and accountability on our journey towards greater climate resilience .
+
+ 
+1.3 About the Task Force on Climate-related Financial Disclosures 
+
+The global landscape on climate risk disclosures is rapidly evolving. As of 2023, TCFD has gathered 4,900 supporters in 103 jurisdictions with a combined market capitalisation of USD29.5 trillion . The commitment expressed by the G7 finance ministers to support mandatory climate risk disclosures has created more urgency for companies to participate in TCFD reporting. Additionally, jurisdictions like European Union, Switzerland, New Zealand, Brazil, Hong Kong, and Singapore have already or will soon made TCFD reporting mandatory. These developments stress the importance of sound climate risk disclosures as an important tool in climate change action. 
+The TCFD began as a voluntary disclosure framework which aimed to increase access to decision-useful, climate-related information for participants in financial markets, including investors, lenders, insurers, and other stakeholders. Compared to other disclosure standards, TCFD focuses on increasing transparency around the financial implications of an organisation’s climate-related risks and opportunities. Since the launch of their recommendations in 2017, TCFD adoption has grown significantly, with regulators across the world, including in Malaysia, pushing for more robust climate-related disclosures that are aligned with the TCFD framework. Accordingly, Bursa Malaysia released its enhanced sustainability reporting requirements in 2022, which requires publicly listed companies to align reporting to the TCFD disclosures by December 2025.
+TCFD revolves around eleven (11) widely adoptable recommendations structured around four (4) thematic areas (Figure 1Error! Reference source not found.). Each recommendation seeks to increase accountability on the impact of climate-related risks and opportunities on a company’s operations and financials.
+
+ 
+1.4 Our approach
+
+Understanding the importance of strategic implementation of climate action, we introduced TM’s Sustainability Framework, (Figure 2) that includes a focus on managing our environmental impact, which includes carbon emission and other climate related impacts. The Sustainability Framework outlines our vision to shape a digital Malaysia through technology that empowers communities, businesses, and government. The Sustainability Framework encompasses our priorities to ensure sustainable growth for our customers and community, while we strengthen business within TM and our value chain. Building resilience includes addressing both physical and transition climate risks through mitigation and adaptation efforts. We understand the impactful significance of digital-based solutions and integration in delivering sustainable business models towards managing environmental challenges to improve business and environmental resiliency. In addition to that, we believe that continuous employee upskilling and professional growth are essential in developing ethical business and improving our long-term performance. 
+
+ 
+Figure 2: TM’s Sustainability Framework
+As part of our 2024-2026 Sustainability Integration plan, we have put in a place a 3-year plan, to strengthen our Climate Management efforts across our operations, as follows:    
+•	2024: Expanding our Scope 1 and Scope 2 Emissions baselines to our operations in East Malaysia 
+•	2025: Developing our Decarbonisation Strategy    for Scope 1 and 2
+•	2026: Expanding our Scope 3 Emissions calculations to material categories 
+2.	Governance
+
+Governance refers to structures, policies, and processes that operate to define an organisation’s direction and objectives, as well as enabling the monitoring and evaluation of an organisation’s performance against its defined objectives. Good governance for an organisation is critical, especially in tackling its climate related matters. This involves effective oversight by its Board of Directors, which is supported by its management teams with clear roles and responsibilities. Against this backdrop, TCFD recommends the disclosure of relevant governance arrangements, which oversee the assessment, and management of climate-related issues, thus enabling stakeholders to understand whether such issues – including relevant risks and opportunities – are given appropriate board and management attention.
+
+2.1 The Board’s oversight of climate-related risks and opportunities
+
+In 2023, TM has refreshed our Group level Sustainability Governance Structure, to further strengthen our ability in providing oversight and execute sustainability related initiatives, including climate change, as well as to clearly define the reporting lines between the levels involved in the structure (Figure 3).  
+
+ 
+Figure 3: TM’s Sustainability Governance Structure
+The Board is primarily responsible in providing strategic direction for TM’s sustainability initiatives, approves sustainability targets and monitors its progress, as well as integrates material matters into TM’s vision, mission and strategies. The Board is supported by BRIC, which functions to continuously enhance sustainability integration into TM’s Risk Management Systems, and integrate sustainability considerations into its committee discussions.
+Climate change is tracked as one of TM’s Corporate Risks, and is updated to the Board and BRIC on quarterly basis. The report covers both physical and transition risks. In reviewing this report, the BRIC ensures that climate-related risks are adequately monitored and mitigated to improve movement of risk and key risk indicators, as well as minimise   adverse impact to TM. In addition, the Board and BRIC are updated on the progress of TM’s Sustainability Roadmap, which includes TM’s carbon emission reduction progress, among other ESG metrics and targets.   
+As we progress in our sustainability agenda and increase our focus on other climate related risks and opportunities, we shall seek to further formalise the role of the Board and BRIC by clearly outlining the scope of matters under their sustainability oversight, which includes climate change.     To facilitate informed decision-making process, we look forward to conduct periodic capacity building initiatives for the Board, which covers sustainability and climate related matters.
+
+2.2 Management’s role in assessing and managing climate-related risks and opportunities
+
+At the Management level, the MC is responsible to implement Board-approved sustainability strategies and targets, that includes those relevant to climate matters, aside from proposing any adjustments to these strategies and targets based on Board’s feedbacks. 
+In 2023, TM further strengthened the roles of management in assessing and managing climate related risks and opportunities. TM’s Group level Sustainability Governance structure was reinforced with the establishment of the Management level Sustainability Committee, as illustrated in Figure 3 above. The Sustainability Committee members were appointed by the GCEO and is chaired by the GCFO, with members comprising of Heads of Key Management Functions from across the Group. The Senior Director and Head of Sustainability serves as the Convener of the Committee. The Sustainability Committee was appointed to oversee the progressive implementation of TM’s Sustainability Roadmap and its yearly targets. Aside to this, the Committee appoints relevant SWG members from various divisions, and provide recommendations to TM Management Committee and Board Committee as and when needed. The Sustainability Committee is supported by the Project Management Office, which is made up of the Sustainability Division to assist the committee in over-seeing the management of various cross-functional SWGs that were established to implement the deliverables of the Sustainability Roadmap. The Sustainability Division reports to the CCRO, who is also a member of the Sustainability Committee and Management Committee.
+To highlight TM’s effort in managing climate change related risks and opportunities, an ‘Environmental Management’ SWG was established to implement and monitor the initiatives relating to TM’s environmental management, and carbon emission reduction strategies and targets  . In 2024, this SWG, which comprises key personnel from our Network, Support Business and Procurement teams, are mandated to refine TM’s Scope 1 and Scope 2 emissions baseline and developing an Environmental Management Policy that encompasses broader aspects of environment and climate management  . 
+In addition to this, TM has specific structures and policies in place to ensure a proactive approach to managing climate-related risks. Management of climate related risks and opportunities are assigned as KPIs to relevant functions, which are involved in managing our network infrastructure, data centres, buildings, and fleet.   To illustrate, the KPIs for carbon emission reduction targets are shared between the GCFO, CNO, CTIO, and EVP Mobile, which are then cascaded across relevant managerial tiers   and functions.       
+Physical risks are overseen by the GRM division, and is further supported by BCM Steering Committee to ensure alignment on physical risks and opportunities with TM’s overall strategy, which is overseen by the CRO. The BCM Steering Committee encompasses senior management from various business and technical departments of TM, who acts as the primary decision maker and oversight for TM’s BCM programmes. The responsibilities of BCM Steering Committee include approving overall TM’s BCM policies and strategies, which are consistent with TM’s risk tolerance level as well as the nature, complexity, and materiality of its business operations. 
+Quarterly reports for BRIC and Board are prepared by GRM and Sustainability Division for the consolidated physical and transition risks under the Climate Change risk. The quarterly reports on principal risks including Climate related risks are reviewed by CRO before being tabled to BRIC and Board. 
+Moving forward, to facilitate informed decision-making process, we will conduct periodic capacity building initiatives for the Senior Management and Management cohort, as well as other relevant employees, which covers sustainability and climate related matters.
+
+ 
+3.	Strategy
+
+Strategy encompasses an organisations’ aspirations and related plans designed to achieve objectives. Within the context of climate change, stakeholders seek to understand how climate-related issues affect an organisation’s businesses, strategy, and financial planning over the short, medium and long term, thereby informing expectations about future performance of the organisation. 
+
+3.1 Climate-related risks and opportunities the organisation has identified over the short, medium, and long term
+
+In transitioning to a low emissions economy, TM has identified material climate-related transition risks and opportunities that may impact the business depending on how transition could occur. Figure 4 summarises how these risks and opportunities may emerge over short-, medium- and long-term time horizons, in alignment with recommendations from the TCFD.
+
+ 
+
+The selected time horizons align with TM’s existing business planning cycles that we regularly deliberate, realign and re-assess according to our transformation plans. These short planning cycles reflect the pace and complexity of change in our industry and allows us to be responsive to the changing needs of our business, customers, and external stakeholders. We recognise climate-related issues often manifest themselves over the medium to longer terms, and while we can discern the types of risks, which may eventuate, the impact and timing of those risks is uncertain. Climate-related issues are a growing input into TM’s strategic and financial planning processes. 
+To understand how these risks might change in the medium to long term, we have undertaken climate-scenario analysis. We have selected globally recognised scenarios developed by Network for Greening the Financial System (NGFS), International Energy Agency (IEA), and the Intergovernmental Panel on Climate Change (IPCC), which provide a range of possible future pathways for global GHG emissions, temperature changes and other climate-related impacts. Our selected climate scenarios are broadly classified into two (2) categories:
+•	Various socioeconomic conditions associated with a shifting environment using IEA & NGFS scenarios to analyse our transition risks.
+•	Impacts to the physical environment using IPCC scenarios to analyse our physical risks.
+These two (2) broad categories are overlaid using varying degrees of global action to address climate change. We selected scenario providers with corresponding key scenarios to understand the potential impacts of transitioning to a low-carbon economy arising from physical climate change (Table 1). This qualitative and quantitative scenario analysis has provided us with useful insights into the nature, scale, and impact of our climate-related risks.
+
+Table 1: TM’s selected Climate scenarios
+Transition risk 
+	World Energy Outlook (WEO) 2023
+	BAU
+Stated Policies Scenario | >2.5°C	NZE
+Net Zero Emissions by 2050 Scenario | <1.5°C	Committed Pledges
+Announced Pledges Scenario 
+| <1.7°C
+Definition	A scenario which reflects current global policy settings based on a sector-by-sector assessment of the specific policies that are in place, as well as those that have been announced by governments around the world.	A scenario which sets out a narrow but achievable pathway for the global energy sector to achieve Net Zero CO2 emissions by 2050.	A scenario which assumes that all climate commitments made by governments and industries around the world will be met in full and on time.
+	Network for Greening the Financial System (NGFS)
+	BAU
+Current Policies Scenario | >2.5°C	NZE
+Net Zero Emissions by 2050 Scenario | <1.5°C	Committed Pledges
+Nationally Determined Contributions | <2.0°C
+Definition	A scenario that demonstrates only currently implemented policies around the world are preserved, leading to high physical risks.	A scenario which limits global warming to 1.5°C through stringent climate policies and innovation, reaching global Net Zero CO2 emissions around 2050. Some jurisdictions such as the US, EU and Japan reach Net Zero for all GHGs.	A scenario which includes all pledged targets even if not yet backed up by implemented effective policies.
+ 
+Physical risk
+	Intergovernmental Panel on Climate Change (IPCC) Representative Concentration Pathway (RCP)    
+	RCP 8.5	RCP 4.5
+Definition	A high-emissions scenario, consistent with a future within no policy changes to reduce emissions and characterised by increasing GHG emissions that lead to high atmospheric GHG concentrations. It is aligned broadly with Current Policies or Business-As-Usual Scenarios	An intermediate-emissions scenario, consistent with a future with relatively ambitious emissions reductions and GHG emissions increasing slightly before starting to decline in 2040. 
+Parameter Rise	•	Temperature increases above 4°C
+•	Emissions continue to rise 	•	Temperature increases between 2-3°C
+•	Emissions peak by 2040
+
+Detailed information regarding the climate scenario assumptions can be found in 7.2 Appendix 2: Climate Scenario Model Assumptions.
+ 
+
+3.2 The impact of climate-related risks and opportunities on the organisation’s businesses, strategy, and financial planning
+
+TM conducted two (2) types of climate scenario analysis to provide a holistic view into both transition risks and physical risks. The three (3) WEO scenarios and three (3) NGFS scenarios were used to analyse transition risks, and the two (2) IPCC RCP scenarios were used to analyse physical risks.
+
+3.2.1 Transition risks and opportunities
+In anticipation of a low-carbon world, TM is committed to ensuring that relevant transition risks are adequately identified and their potential impacts to the business thoroughly understood. It is important for us to assess and manage these risks arising from policy, legal, technology, market and reputational changes associated with a successful or unsuccessful transition to a low-carbon economy. As the global economy decarbonises, it will likely require a world that is more interconnected and digitised, providing TM with opportunities to advance connectivity and digital solutions for customers, Government, and emerging industries.
+The assessment of the transition risks considered the liability, operational, capital, revenue, and financial implications on TM’s business. We have qualitatively described the inherent risk (without control measures from an outside-in perspective), to reflect the external influences of climate-related risks and to compare the risks across scenarios (Table 2). As different scenarios evolve and take form, TM will adapt to actively manage the risks accordingly. 
+We are also continuously exploring potential climate-related opportunities in the areas of improving resource efficiency, alternative energy source, introduction of new products, new market penetration, and improving business resilience against climate change. This effort is in line with our objectives to leverage climate change to enable sustainable growth, on top of ensuring business resilience.  
+
+ 
+ 
+Table 2: TM’s transition   risks inherent impact across climate scenario and time horizon
+Transition risks summary  	Current policies scenario | >2.5°C	Net-zero emissions scenario | <1.5°C	Committed pledges scenario | <2.5°C 
+	Short-term
+1-5 years	Medium-term
+5-10 years	Long-term
+>10 years	Short-term
+1-5 years	Medium-term
+5-10 years	Long-term
+>10 years	Short-term
+1-5 years	Medium-term
+5-10 years	Long-term
+>10 years
+Carbon tax | The implementation of a carbon tax or scheme may impact the implementation of TM’s new energy intensive strategies			
+			
+
+
+Material cost | The rising costs of materials within TM’s supply chain due to carbon taxation and sustainable solutions 						
+
+
+
+Insurance premiums | Increased annual precipitation will lead to worsening  flood damage and result in higher claims and increasing premiums	
+					
+
+
+Energy demand | Rising costs of energy prices as the world’s energy system adapts to climate change compounded by TM’s increasing energy demands as the business grows	
+		
+		
+
+
+Safety and health of workers | Decreased staff productivity due to obstruction from the rising heat or flooding in the physical environment 		
+				
+
+
+Financing | TM is unable to secure desired financing and achieve strategic objectives as lenders implement increasingly stringent sustainability requirements in order to address climate change	
+					
+
+
+ 
+Regulation changes | TM is unprepared for changes in regulations favouring low-carbon or energy efficiency measures leading to penalties	
+					
+
+
+Increased expectations from consumers | Customer expectations for climate-related products and service are left unmet leading to a loss of TM’s market share to competitors	
+					
+
+
+Market expansion | TM fails to capture opportunities of new products/services to support emerging climate solutions 	
+					
+
+
+Susceptibility to litigations | TM is increasingly targeted with climate-related litigations based on perceived contribution to global warming leading to high legal costs		
+				
+
+
+Brand reputation | Customer trust is lost if TM is unable achieve Net Zero Emissions by 2050 target.						
+		
+
+
+	
+ 
+Through our qualitative analysis, TM identified four (4) transition risks that pose significant inherent threat to the organisation within the next 5 years (Table 3). Considering the inherent impacts on our businesses, strategy, and financial planning, these risks have been prioritised for action.
+
+Table 3: TM’s transition risks and opportunities with a high-risk rating over the next 5 years
+Carbon tax	Material cost
+An overall increase in operating costs is expected especially with the implementation of new strategies such as the 5G network and the intensity of energy consumed by projected data centre utilisation. 
+Carbon regulations may also impact TM’s supply chain partners, resulting in additional pass-through costs to TM.
+Consideration of how TM will balance our long-term growth strategy with our carbon emission reduction targets will be pivotal in managing carbon pricing consequences. Thus, managing and reducing our carbon emissions will better position us ahead of climate regulatory development as we prepare for the eventual carbon tax implementation.	A cross-section of materials critical for TM’s operations may be impacted by transition to a low-carbon economy.  The climate scenario exercise identified two (2) major influences impacting the price of future materials:
+•	Carbon intensive materials (steel and diesel) impacted by the implementation of carbon pricing and efficiency measures; and
+•	Sustainable solution materials (lithium and copper) impacted by increasing demand for rechargeable batteries and limited projected supply.
+Material cost fluctuation creates an opportunity for TM to explore more sustainable materials based on green procurement principles. 
+Insurance premiums	Energy Demand
+IPCC stated in its 2021 Report  that climate change brings multiple changes to different regions. This includes how climate change intensifies the water cycle, which leads to increase in the intensity of rainfall and its associated flooding. To this end, rainfall patters also changes, affecting monsoon precipitation.
+According to World Bank statistics , Malaysia is experiencing a steady increase of annual precipitation, based on the trend measure from 1951. This situation coupled with drainage issues has resulted in more intense and frequent floods, as well as risk of damage to physical assets including our network infrastructure. Consequently, there may be higher repair costs, leading to insurance claims, and higher premiums.    
+Targeted climate resilience initiatives based on severity level allows TM to lower claims and insurance premium in a more effective and timely manner.	Based on the current government’s reduction and expected removal of subsidies for diesel, the cost of energy is expected to face a material increase due to the policies set.
+There is expected to also be an increase in the cost of electricity tariffs due to this as well.
+Opportunities in the area of improving energy efficiency and reducing electricity consumption can support TM in lowering energy costs. 
+
+ 
+Transition risks modelling and analysis
+Our climate scenario exercise quantifies the potential financial impacts of carbon pricing, energy prices, material costs, and expectations of consumers on our operations. We extended our three (3) time-horizons to include 2040 and 2050 to inform long-term business strategy and decision-making. 
+Further information on the modelling methodology, assumptions and limitations is in 7.2 Appendix 2: Climate Scenario Model Assumptions.
+In 2022, we began our assessment with a qualitative analysis to identify the transition risks that could impact our business. The risks were prioritised for materiality with our Senior Leadership and C-Suite providing unique perspectives and contributions on where the organisation may be most exposed  . From here we gathered relevant data and information including energy consumption, carbon footprint, critical material procurement prices, and customer demographics.
+
+Carbon tax
+Across the six (6) scenarios carbon pricing was found to have varying financial impacts. The potential long-term financial impacts vary based on our analysis within a BAU scenario, a NZE scenario as well as a Committed Pledges scenario, with impacts more pronounced within NZE scenario. Our analysis is based on global and Southeast Asia reference points and include assumptions on TM’s business growth and emission reductions. The modelling suggests a slow introduction of carbon tax that builds over time, with more significant increases in 2040 in an NZE scenario and Committed Pledges scenario.
+Across all six (6) scenarios the percentage impact on financial is expected to worsen should we not achieve our emissions reductions targets.
+The underlying carbon prices used to determine these values were driven by:
+•	High carbon prices aligned with the NGFS NZE and NDCs scenario, which acts as a high penalty on carbon in a net-zero economy. 
+•	Slightly lower carbon prices with the IEA WEO NZE that diverges significantly after 2040.
+By being prepared ahead of time, we will be in better position to protect our interest, minimise financial impact from carbon tax and reduce our business vulnerability against more stringent climate regulatory development. 
+
+Material cost
+As part of our supply chain, we identified four (4) materials critical to our operations that have also been identified as either essential components in today’s rapidly growing clean energy technologies or carbon intensive.  
+Our scenario analysis found:
+•	Steel prices are expected to rise similarly across both BAU, NZE and Committed Pledges scenarios. While a low-carbon economy anticipates a higher carbon tax, CO2 emissions within steel production are expected to fall simultaneously. In contrast, lower carbon taxes will result in less aggressive process efficiencies and ultimately leading to similar price changes.
+•	Copper prices are not expected to have a material financial impact to TM as we plan to phase out copper cables   due to conversion to fibre.
+•	Lithium prices are expected to increase by 65% in an NZE and Committed Pledges scenarios when compared to BAU scenario. Lithium plays a crucial role in the transition towards a low-carbon economy due to its use in batteries for electric vehicles and energy storage systems. The demand for lithium is expected to increase in a low-carbon economy while current projections of lithium production may not meet a net-zero carbon economy targets. TM purchases Lithium-ion batteries as part of the energy back-up system for the network. 
+•	Diesel prices are expected to decrease by 40% in an NZE scenario when compared to BAU scenario and Committed Pledges scenario. However, in reality, due to the diesel subsidies being removed by the government, it has resulted in overall diesel prices increasing substantially. This is also in line with global commitment to promote more renewable energy resources and transition away for fossil fuels. While, the price of diesel is dependent on various factors such as supply and demand, government regulations and policies, and technical advancements in alternative fuel sources, it is still a material source of energy for TM Berhad.  
+Globally, more metal suppliers are expanding their product portfolios to include recycled metals such as steel, iron, aluminium, among others, as an effort to offer alternative and greener product, reduce the amount of waste generated and promote circular economy. Thus, volatility in material costs poses an opportunity for us to explore more sustainable materials based on green procurement principles.
+Insurance premiums 
+Flood is regarded as one of Malaysia’s most severe and frequent disasters, which causes the highest amount of annual average losses to individuals and business. Increased annual precipitation trend observed over the past 70 years will worsen the damages caused by flooding. In addition to that, rapid urbanization activities further intensify the risks of floods, and insurance claims to address higher repair and restoration costs. This has led to an increasing demand from large corporations to protect their assets from flood risks via climate adaptation measures, as well as insurance programmes to cushion recovery costs. 
+For TM, it is evident from our physical risk modelling that our assets are exposed to flood risk at various levels of severity.   Damages to our physical assets due to flooding may lead to higher claims and insurance premiums and result in higher operational costs. This was a lesson learnt  following the 2021–2022 Malaysian floods, whereby we saw an increase in insurance premiums due to the increase in claims and flood risk. 
+ At TM, understanding our climate-related risks and opportunities provides us with the foundation to protect stakeholder value and business performance in the long term. Aiming to meet Malaysia’s digital and connectivity needs whilst future-proofing our business, we have adopted several mechanisms that enable the identification of risks and opportunities related to climate change. This includes our ERM system and our Business Continuity Management System (BCMS).  
+To minimise the risks posed by rising insurance premiums, we have implemented necessary insurance and physical safeguards for our significant assets. This is to ensure our assets are sufficiently covered and material losses are minimised. As we move forward, we would consider looking at implementing targeted climate resilience initiatives that are based on severity level. As we prioritise in effectively managing our assets that are more exposed to flood risks, we expect to contribute to the reduction in our lower insurance claims and premiums in the coming years. 
+
+Energy demand
+TM’s primary energy source is electricity making up 80% of total energy consumption in 2023. A stable energy supply is critical to providing consistent essential connectivity services across the country.  As our network grows, we are conscious how of our energy demand will change and the actions we must take in our role to address climate change.
+Energy prices from fossil fuel sources are expected to continually rise over time in a NZE scenario and a Committed Pledges scenario, while remain relatively stable over the next 30 years in a BAU scenario. These ranges are based on both global and Southeast Asia reference points.
+Rising electricity prices are influenced by:
+•	Changes in fuel costs (diesel / petrol) as these play an important role in coal extraction and electricity generation
+•	Removal / reduction in electricity and fuel subsidies as part of regulatory reforms
+•	Increase in the electricity tariffs 
+•	Implementation of a carbon pricing mechanism
+•	Operating and maintenance costs to ensure equipment is compliant with increasingly stringent environmental regulations   
+In 2023, our electricity provider, Tenaga Nasional Berhad (TNB), has imposed an Imbalance Cost Pass Through (ICPT) surcharge of RM 0.170 to 0.200/kWh, on top of the standard commercial tariff of RM0.509/kWh. In comparison, ICPT cost was RM 0.037/kWh in 2022 thus reflecting a significant increase in 2023.   The ICPT rate fluctuation, which is revised bi-annually, poses a risk to our operational cost, signaling the importance of mitigating energy demand risk.  As part of our risk mitigation effort, we have enhanced our energy efficiency initiatives specifically across our network modernisation and data centers optimisation.   
+In addition to that, we have also subscribed to TNB’s Green Electricity Tariff (GET) as part of our initiative to reduce our carbon footprint by purchasing low carbon electricity, which is priced at RM 0.218/kWh on top of the standard commercial tariff. However, this can be considered a temporary solution due to the limited green electricity quota and the potential revision of GET price in the future. 
+Taking into consideration the above challenges and limitations, as part of our continuous effort in achieving our Net Zero target, we will be exploring other avenues to reduce our electricity cost and our Scope 2 emissions.  Our focus remains to manage and reduce our electricity consumption through energy efficiency initiatives. 
+
+3.2.2 Physical risks
+As the National connectivity and digital infrastructure provider and Malaysia’s leading integrated telecommunications company, we recognise the importance of ensuring the integrity of TM’s infrastructure and assets. As such, understanding our exposure to physical risk is critical to building a more climate resilient business. Through our scenario analysis, we have identified floods as our key physical risk, as floods constitute the greatest climate-related physical risk in Malaysia – TM’s main area of operation. 
+
+ 
+Physical risk modelling design
+TM’s assets are spread across the nation. This means that some of our assets are more exposed to flood risk than others. With this in mind, we designed the physical risk assessment model through mapping our list of material assets’ geospatial locations at the address level against their elevation levels and the forecasted rainfall severity under the different key scenarios, namely RCP 4.5 and RCP 8.5  , with a time horizon up to year 2050. To sufficiently capture the granularity of flood risk, we considered accuracy levels of up to 2 km x 2 km resolution   for assets, whereas climate-related forecast data utilising a resolution of 50 km x 50 km.   
+The analysis performed was back-tested against the vulnerability of the assets against flood risk based on historical events. We have further tagged rating grades by exposure level for ease of tracking our performance over time. We have identified and quantitatively expressed TM’s exposure and vulnerability to flood risk, the primary physical risk driver for the period under review. 
+
+Flood risk assessment findings 
+Flood risk projection based on 50,587 material assets across Malaysia has been evaluated to identify the concentration risk TM is exposed to and areas that are highly susceptible to flood risk based on the two (2) different scenarios selected up to 2050 over the useful lifespan of the material assets. Based on the assessment conducted, it was identified that under the RCP 8.5 scenario, there would be up to a 72% increase in impact to asset value as a result of floods compared to the baseline scenario of RCP 4.5 based on the current distribution of material assets owned by TM.   
+In view of the risks posed by floods, TM has implemented several mitigation measures to minimise damage to our assets and disruption to our services. TM has in place modifications on susceptible equipment such as batteries and early warning signals for floods such as flood alarm systems at exchanges that are prone to floods to mitigate the impact of floods. This is primarily achieved      through BCMS, which encompasses a range of policies, procedures and practices aimed at minimising the impact of climate-related disasters on our operations and customer experience. Temporary communication via Very Small Aperture Terminal and further improvement of the Recovery Time Objective based on mobilisation distance have been achieved to further improvement the Operational Response Team’s readiness in managing flood incidents.  We will also mobilise our disaster recovery equipment to recover service disruption caused by major fire incidents. Additionally, from the analysis conducted and the insights gathered from the climate modelling exercise, TM would be able to develop strategies to further mitigate these risks for high-risk exchanges or further divest from flood prone areas moving forward.
+
+3.3 The resilience of the organisation’s strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario
+
+By integrating sustainability into our strategy, TM can build our business resilience, create inclusive value for stakeholders, meet our nation-building agenda and contribute to solving global sustainability challenges. Following our engagement with relevant stakeholders across our business functions, the results of our latest scenario analysis provide us with key insights into building resilience in view of the potential worst-case impacts of climate change. We also recognise the limitations of these scenarios as they provide only hypothetical futures with uncertainty in the magnitude and onset of these risks remaining.  Our analysis demonstrates that our actions have led to strategic decisions that have made our organisation more resilient to climate-related risks (Table 4).    
+Table 4: TM’s organisational resilience to climate change 
+		Current resilience	Future design	Strategic insights and future considerations 
+
+Transition risk	Carbon tax	TM has set long-term commitments to net-zero emissions by 2050 with interim targets to track progress and integrate into business planning. These targets have led to the implementation of numerous initiatives that will reduce TM’s carbon emissions and the severity of future carbon pricing policies. The initiatives include:
+•	Enterprise Energy Management System
+•	Zero Capex Solar programme
+•	GET purchasing from TNB	Looking to the future, we are in the process of developing a decarbonisation strategy to provide a clear path forward and set future direction to enable achievement of our Net-zero target.
+As part of this, we aim to significantly expand the tracking of Scope 2 emissions to all of TM operations nationwide in the coming year.	Further enhancement of our monitoring capability through strengthened business processes to capture more broadly carbon emissions and financial impacts on our operations.
+
+The development of climate action principles to unify the application of our day-to-day decisions across the organisation as they relate to our climate.
+
+	Material cost	Cost-savings are currently being realised and will likely continue through our improved operational efficiencies of diesel. Current initiatives have provided significant improvements:  
+•	Vehicle Optimization Programme
+•	Smart Fleet Monitoring System
+TM EZFleet (Car sharing)	TM stays ahead of rising environmental regulations and costs through regular review of internal policies to support transitioning to a low-carbon economy. 
+	Continual tracking and monitoring of materials significant to TM’s operations and most likely impacted by climate-change include lithium, steel, and diesel. 
+
+Consideration of financial ‘buffers’ for climate-sensitive for long-term TM projects that use critical materials, to address potential project overruns due to material cost changes. 
+	Insurance premium	As part of our initiative to minimise insurance claims and premiums, TM is committed to implement adequate insurance and physical safeguards for our significant assets. We believe that this effort would assist TM in ensuring the Group’s assets are sufficiently covered and material loss against any mishap is minimised. 	TM continuously monitors equipment vulnerability across all material assets, which would contribute in minimising the impacts of physical climate risks to TM’s assets.	TM would consider implementing targeted climate resilience initiatives that are based on severity level. 
+	Energy demand	TM’s heavy investment into expanding Malaysia’s 5G ecosystem involves expansion of the network, with particular focus on data centres. Data centres are responsible for significant amounts of energy consumption. To continue the growth of the organisation while protecting against rising and volatile energy prices, a range of initiatives are underway to improve energy efficiencies and reduce consumption focusing on our network and data centres including: 
+•	Network Equipment Shutdown
+•	Energy Performance Contract (EPC)
+•	Air conditioner replacement
+•	LED lights
+•	Energy Efficiency Optimisation (EEO) for Facilities & Network  
+•	Enhancing Power Usage Effectiveness (PUE) to achieve a balance between energy efficiency and cost optimisation for our customers	TM is leveraging our relationships with suppliers and Mega-Partners to exchange ideas and adopt new technologies that support a more
+green and circular economy. 	Further incorporate climate impacts in our financial and strategic plan. The climate assessment provides a basis to test the vulnerability of TM’s financial and strategic plans to address any climate-related impacts.
+Physical risk	Flood	As part of our strategy to improve our readiness in addressing physical climate change risks, TM has implemented a robust BCM programme to mitigate prolonged service outages. Within our BCM programme we have various initiatives and activities that further improve the effectiveness of our BCP and DRP including:
+•	Building network resiliency via system / physical redundancy and hardening by design
+•	Ensuring all fire prevention, fire detection, firefighting / suppression system, warning systems and other relevant systems are in working condition
+•	Transferring of risk via insurance programme to cushion the recovery costs
+•	Integrating Disaster Simulation Drill exercises into our operations to test the joint readiness of TM and other members of the Malaysian Communications and Multimedia Commission’s National Disaster Management Working Committee	TM continually reviews and amends the BCMS scope with respective leaders evaluating long-term considerations and non-disruptive threats / opportunities. This serves to improve our practice and implementation of our BCM programme.	Further enhance our resilience efforts through targeted efforts towards our assets with closer proximity to bodies of water using historically exhibited cases of flooding.
+ 
+4.	Risk Management
+
+Risk management refers to processes that enable the identification, analysis and management of risks. When assessing an organisation’s overall risk profile and management activity, users of climate-related financial disclosures seek to understand how climate-related risks are identified, assessed and managed, as well as whether such processes are integrated into existing risk management systems.
+
+4.1 The organisation’s processes for identifying and assessing climate-related risks
+
+At TM, our ERM system guides the identification, tracking and monitoring of climate-related risks – both physical and transition – across our business, operating through our ‘three (3) lines of-defence’ risk management model against existing and emerging risks that impact our ability to generate value for our stakeholders (Figure 5). In accordance with our ERM framework, TM defines risks as encompassing both threats and opportunities. Our ERM framework covers a five-step process to establish context, assess, treat, record and report, and monitor and review risks in line with the international standard (ISO 31000:2018).
+ 
+Figure 5: TM’s Risk Management Process
+
+In addition to our ERM system, our management regularly reviews the context and impact of climate change through key action items:
+•	Regular evaluation of internal factors which necessitate long planning horizons to adapt to climate change. This includes an evaluation of products, devices, and supply chain activities, as well as any areas of business vulnerable to weather events.
+•	Identification of potential collaboration amongst stakeholders as well as emerging government requirements in relation to climate risk management.
+•	Regular reviews of the BCMS scope with respective leaders to identify and evaluate climate-related threats and opportunities across different time horizons. 
+•	Periodic Sustainability materiality assessment that utilises feedback from stakeholder engagements to identify material matters and evaluate their magnitude and impact on TM’s business strategy and performance.
+
+In 2023, physical and transition climate risks have been identified and assessed across three (3) horizons: short, medium, and long-term. The scale of magnitude evaluated for each risk allow us to prioritise and plan mitigation actions to deescalate the risks and impacts. With improved climate risk management processes through the leadership of our top management, we aim to continuously monitor and assess current and new climate-related risks against TM businesses to ensure the interest of our stakeholders are protected.
+
+4.2 The organisation’s processes for managing climate-related risks and opportunities
+
+TM has established relevant working groups to manage the identified climate-related risks and opportunities, such as operational carbon emissions. We also prepare quarterly risk and opportunity reports to the BRIC   on the management of corporate risks, which includes both transition and physical climate-related risks. The report entails several components, including documentation of risk trends, risk assessments, risk outlook, key controls, risk owners , key risk indicators (KRI), key control indicators (KCI), and opportunities. 
+Furthermore, TM has operationalised an enterprise-wide BCMS to proactively address climate-related risks, particularly in terms of physical risks (Figure 6). This system aligns with ISO 22301:2019 and includes our Business Continuity Plan (BCP) and Disaster Recovery Plan (DRP), which encompasses various procedures and practices to respond to potential interruptions that may impact critical business functions. The system also critically enforces specified requirements across key divisions, Customer-facing Business Units, States and Subsidiaries to minimise disruption and ensure a timely resolution of any issues that may arise during a crisis or disaster (Figure 7). 
+
+
+ 
+Figure 6: TM’s BCM Framework
+
+ 
+Figure 7: TM’s BCM Leadership Organisation Structure and Coverage
+TM’s BCMS also includes the following features.
+•	Implementation of BCP and DRP at TM Command Centres, thus minimising the impact of climate-related disasters on TM’s operations and customers.
+•	Continuous assessment of potential disruption scenarios and incorporation of lessons learned from past incidents to ensure the adequacy of BCM controls and practices. This includes regular desktop exercises and physical drills.
+
+4.3 Processes for identifying, assessing, and managing climate-related risks are integrated into the organisation’s overall risk management 
+
+As of 2023, we are fully compliant with the TCFD disclosure requirement as the identification, assessment, and management of climate-related risks have been integrated into our overall risk management system. External factors leading to potential risks, including climate and environmental risks are identified according to five (5) categories: economy and industry trend, social and cultural, technology, legal and regulatory, as well as environmental. In addition to that, risk analysis is performed to understand the sources of risks and assess risks level for risks management control. 
+At present, sustainability represents one (1) of five (5) risk clusters at TM. Within sustainability, there are three (3) areas of focus: Economic, Environmental and Social. Climate changes and its related risks and opportunities are captured under the Environmental pillar (Figure 8). 
+ 
+Figure 8: TM’s Risk Clusters
+In 2023, we have acted upon the recommendations derived from TCFD Report 2022 and improved our ESG reporting by incorporating relevant climate-related findings into our ERM processes. The following areas have been addressed to ensure full compliance to the disclosure requirement:
+•	Assessment of risk ratings by the respective risk owners are escalated to Group Risk Management for review, standardisation, and validation. 
+•	Performance of climate-related risks, primarily carbon emissions, are tracked against their respective targets with quarterly performance reviews by the Chief Risk Officer.
+•	Identification of environmental and climate-related risks is explored based on five (5) external factor   categories and is outlined in the ERM document, as below:
+o	Economy/ Industry Trends: External forces that can impact the economy where the organisation operates in. 
+o	Social/ Cultural: External forces that changes the greater social environment of the organisation. 
+o	Technology: Changes in technology that affects the position of the organisation and its business. 
+o	Legal/ Regulatory: Changes in external legal elements that looks at the practical application of the political factors into a set of rules and regulations, that affects the organisation and its business.
+o	Environmental: External forces driven by changes in the environment and climate. 
+Additionally, we have also engaged our top suppliers to understand their respective environmental policies and energy efficiency initiatives through our ESG Compliance Assessment Survey. As we progress further in our TCFD journey, we plan to improve our climate-disclosure reporting by implementing best practices to safeguard our stakeholders’ interests and contribute towards the achievement of TM’s Net Zero ambitions. 
+
+ 
+5.	Metrics and Targets
+
+Metrics and targets are how an organisation measures and monitors its climate-related risks and opportunities. TCFD recommends that organisations disclose metrics and targets to enable stakeholders to better assess an organisation’s potential risk adjusted returns, ability to meet financial obligations, general exposure to climate-related issues and progress in managing or adapting to those issues. 
+
+5.1 Metrics used by the organisation to assess climate-related risks and opportunities in line with its strategy and risk management process 
+
+TM is committed to progressively minimising our operational emissions in line with keeping global temperatures within 1.5°C limits. Hence, climate-related metrics have been established to help us measure and monitor the most relevant parameters in shaping our collective action plan to address climate-related issues. 
+
+In terms of the climate-related risks and opportunities we have identified, we have established relevant metrics to track our progress. These metrics presented below are assessed on a quarterly basis:
+
+1.	Fleet Management: In 2023, we have further optimised our vehicle operations and reduced our overall fleet by 293 vehicles, implemented a smart vehicle management system to enhance fleet management and operational efficiency, as well as launched a car-sharing platforms for employees to reduce the need for larger vehicles. These initiatives resulted in 1,260,000 litres of petrol and 30,000 litres of diesel saved, from the 2019 baseline.
+
+2.	Network Optimisation: In 2023, we continued our efforts from year 2021 to implement network modernisation via deactivation of underutilised elements and migration of service to networks with higher utilisation rates, which have further reduced electricity consumption of 1,385 MWh in 2023.  In addition, we implemented cost saving energy efficiency measures in our network infrastructures, resulting in a reduction of 3,840 MWh of electricity consumption.
+
+3.	Building and Data Centres Optimisation: Through our energy efficiency optimisation plans at our buildings and data centres, we have saved 6,590 MWh of electricity  in 2023. 
+
+4.	Effective Waste Management: In 2023, we continued to enforce strict waste segregation according to Environmental Quality (Scheduled Wastes) Regulations 2005, promoted paperless operations, and the Reduce, Reuse, Recycle principle. 
+
+5.	Minimisation of Business Travels: We have shifted our approach to virtual meetings, significantly reducing the need for employee air travel. 
+
+6.	Shifting energy mix: In 2023, our total energy consumption comprised of 11%   from renewable sources, resulting in 51.2million kWh of green energy acquired through TNB’s GET programme.
+
+5.2 Scope 1, Scope 2 and Scope 3 greenhouse gas emissions, and the related risks
+
+Our resilience towards a net-zero future is embedded closely into our own operations and activities. We are committed in realising our nearest carbon emission reduction target, which is a 30% reduction in 2024 with a 22.1% overall emissions reduction in 2023, from 2019 baseline. These are realisable with a cumulative effort coming from, but not limited to, operational efficiency, enhanced use of renewable energy and energy-saving initiatives at our network, data centres and office buildings.   
+With guidelines from GHG Protocol Corporate Accounting and Reporting Standard, the scope of our zero-carbon efforts is based on three (3) categories:
+Scope 1: Direct Emissions from Fuel Consumption 
+We track the amount of fuel consumed by our vehicle fleet and diesel purchased across all of TM’s sites and operations, which are then converted into carbon emissions based on the DEFRA Emission Conversion Factors 2023. The change to utilise DEFRA Emission Conversion Factors were done in 2023 as they provide the latest available factors where data is unavailable for Intergovernmental Panel on Climate Change (IPCC). 
+Scope 2: Indirect Emissions from Electricity Consumption
+We calculated our indirect emissions based on data collected from all TM assets in Peninsular Malaysia, with a goal to cover all assets nationwide from next year onwards. The carbon emissions are converted according to the GEF in Malaysia 2021 by MIEH. 
+Scope 3: Indirect Emissions from Waste Production
+Similar to electricity data, we currently collect waste generation data at eight (8) sites within Peninsular Malaysia that have implemented an Environmental Management System (EMS). The data is converted into carbon emissions based on the DEFRA Emission Conversion Factors 2023.
+Scope 3: Indirect Emissions from Air-Travel
+Our air-travel emissions were determined through detailed tracking of employees’ flight information, this includes distance flown, number of travellers and travel class. The International Civil Aviation Organization (ICAO) Carbon Emissions Calculator provides estimates to convert employee passenger distance travelled into total CO2 released during the flight.
+In the short term, we will refine our data collection methodology and boundaries for Scope 1 and Scope 2 emissions, while continuing our emission reduction efforts. Over the medium term, we aspire to expand the material aspects and boundaries of our Scope 3 emissions. 
+In order to reach our climate  targets, we have established several metrics to track our progress as summarised in Table 5 below.Error! Reference source not found. 
+ 
+Table 5: TM’s environmental metrics
+Metrics	Scope	Unit of Measurement
+Emissions
+Scope 1 Emissions	GHG emissions from petrol and diesel, of all TM fleet   	tCO2e
+Scope 2 Emissions 	Electricity consumption from TM operations, within Peninsular Malaysia	tCO2e
+Scope 3 Emissions 	Indirect GHG emissions from TM’s air travel and waste generation, within Peninsular Malaysia	tCO2e
+Petrol and Diesel
+Fuel consumption	All TM’s fleet	L
+Increase or decrease in fuel consumption	All TM’s fleet	%
+Energy
+Energy consumption	All TM sites and operations, within Peninsular Malaysia 	kWh
+Waste
+Emissions from waste generated 	Waste generated at eight (8) sites of TM, within Peninsular Malaysia 	tCO2e 
+Reduction in waste-generated emissions 	Waste generated at eight (8) sites of TM, within Peninsular Malaysia 	%
+Air Travel
+Emissions from air travel	Emissions based on trips made via travel agent only	tCO2e
+Reduction in air travel emissions	Emissions based on trips made via travel agent only  	%
+ 
+Our latest emissions profile is summarised in Figure 9 (Scope 1), Figure 10 (Scope 2), and in Figure 11 (Scope 3) .
+ 
+Figure 9: Scope 1 Emissions, from 2019 to 2023 (tCO2e)
+   
+Figure 10: Scope 2 Emissions, from 2019 to 2023 (tCO2e)
+  
+Figure 11: Scope 3 Emissions from 2019 to 2023 (tCO2e)
+*Note: Data on emissions from business air travel were determined based on the trips made via travel agent only. It excludes reservations made through other channels or platforms.
+**Note: For 2023, data on emissions from waste generated excludes the waste generated by Menara TM as the ownership on waste management process was transferred from TM Group to Menara TM’s building management, which is owned by another corporation    . The emissions calculated from the total waste generated at eight (8) sites in 2023 include both scheduled and non-scheduled waste categories. We also updated our emissions factors with DEFRA 2023, which resulted in a reported increase in emissions.
+
+ 
+ 5.3 Targets used by the organisation to manage climate-related risks and opportunities and performance against targets
+
+Within TM, sustainability considerations are integrated across our business and supported by our targets. In relation to climate, we have set a target for our emissions. To track our near to long-term sustainability performance, we have included an overall climate goal of becoming net-zero emissions by 2050 (Table 7). This long-term target is also supplemented by our interim targets, as outlined in Table 6 below.  
+
+Table 6: TM’s environmental targets
+Emissions Targets
+Overall target: Net Zero emissions by 2050
+Interim targets: 
+•	30% carbon emissions reduction by 2024, against 2019 baseline.
+•	45% carbon emissions reduction by 2030, against 2019 baseline.
+•	Net Zero emissions by 2050, against 2019 baseline.
+Areas of Emissions Management
+	Energy and fuel management
+We aim to progressively reduce our energy and fuel consumption	Renewable energy
+We aim to increase the proportion of renewable energy within our overall energy consumption
+Targets	Short term 
+(<5 years)	16%
+	Medium term (5-10 years)	30%
+	Long term (>10 years)	45%
+Supporting Initiatives 	•	Vehicle Optimisation Programme
+•	Smart Fleet Monitoring System
+•	TM EZFleet
+•	TM Fleet Electrification & EV Infrastructure
+•	Network Elements Shutdown
+•	Energy Efficiency Optimisation (EEO)
+•	Energy Performance Contracting
+•	Cooling Unit Upgrading
+•	PUE monitoring	•	Green Energy Tariff (GET)
+•	Solar Power Purchase Agreement (SPPA)
+2023 Target	17%
+Progress in 2023	Through our efforts, we managed to reduce our overall emissions by 84,013 tCO2e, hence achieving a 22.1% carbon emissions reduction from our 2019 baseline. This achievement also surpasses our 2023 carbon emission reduction target by 5.1%.
+
+ 
+6.	Next Steps
+
+We are pleased to conclude our TCFD report for year 2023. In the year under review, TM has met the minimum requirement of the eleven (11) aspects of the four (4) core elements recommended for disclosure by TCFD. 
+
+6.1	Next steps in our TCFD journey
+
+Having completed our first climate scenario analysis for four (4) material transition risks and one (1) physical risk, TM has a greater ability to identify areas for focus and mitigate our material risks further while leveraging on opportunities that support our decarbonisation goal.
+We are committed to reviewing and updating our TCFD progress on an ongoing basis as we refine our financial assessments through climate scenario analysis. This will enable us to provide relevant and purposeful information to meet stakeholder expectations. As part of our continuous improvement efforts to manage climate related risks and opportunities, the following measures will be addressed in stages by December 2026:
+•	To formalise the role of the Board and BRIC by outlining their roles for climate change related matters, within their sustainability oversight scope.  
+•	To further refine our GHG accounting and reporting by:
+o	Expanding coverage boundary to include East Malaysia
+o	Expanding reporting and coverage of Scope 3 categories that are material to TM (with assurance)  
+•	To develop decarbonisation   strategy and pathways and understand challenges and limitations, including:
+o	Establish linkages between historical GHG performance against our Net Zero 2050 ambition
+o	Conduct feasibility assessments on short-, medium- and long-term initiatives towards Net Zero 2050 based on our historical performance
+•	To consider more proactive decarbonisation approaches. 
+ 
+7.	 Appendix 
+
+
+7.1 Appendix 1: TCFD Recommendation Index
+
+TCFD Pillar	Disclosure Recommendation	Page Number
+Governance	Describe the Board’s oversight of climate-related risks and opportunities	9
+	Describe management’s role in assessing and managing climate-related risks and opportunities	10
+Strategy	Describe the climate-related risks and opportunities the organisation has identified over the short, medium, and long term	12
+	Describe the impact of climate-related risks and opportunities on the organisation’s businesses, strategy, and financial planning	14
+	Describe the resilience of the organisation’s strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario	25
+Risk Management	Describe the organisation’s processes for identifying and assessing climate-related risks	29
+	Describe the organisation’s processes for managing climate-related risks	30
+	Describe how processes for identifying, assessing, and managing climate-related risks are integrated into the organisation’s overall risk management	32
+Metrics and Targets	Disclose the metrics used by the organisation to assess climate-related risks and opportunities in line with its strategy and risk management process	34
+	Disclose Scope 1, Scope 2, and, if appropriate, Scope 3 GHG emissions, and the related risks	35
+	Describe the targets used by the organisation to manage climate-related risks and opportunities and performance against targets	39
+ 
+7.2 Appendix 2: Climate Scenario Model Assumptions
+Climate scenario inputs
+Scenario	Business-As-Usual	Net Zero Emissions by 2050	Committed Pledges	Representative Concentration Pathway (RCP)
+Scenario input	Stated Policies (STEPS)	Current Policies	Net Zero Emissions by 2050 (NZE)	Net Zero Emissions by 2050 (NZE)	Announced Pledges Scenario (APS)	Nationally Determined Contributions (NDCs)	RCP8.5	RCP4.5
+Scenario provider	WEO 2023	NGFS | 2.a GCAM5.3	WEO 2023	NGFS | 2.a GCAM5.3	WEO 2023	NGFS | 2.a GCAM5.3	IPCC	IPCC
+Narrative	Assumes current trends in emissions will continue with little or no action taken to mitigate climate change 	Assumes significant action is taken to reduce emissions and limits global warming to 1.5 °C above pre-industrial levels	Assumes announced ambitions and targets can deliver the emissions reductions needed to achieve Net Zero emissions by 2050	Assumes low effort to curb emissions 	Assumes moderate effort to curb emissions
+Assumptions	-	Reflects current and stated policies announced by government around the world
+-	Provides benchmark of existing action and potential limitations
+	-	The 2015 Paris Agreement climate goal are not met
+-	Increasing physical risks over the medium and long term	-	Relies only emission reduction efforts from energy sector only
+-	Universal access to electricity and clean cooking by 2030
+-	50% probability to keep temperature rise below 1.5°C
+-	All countries co-operate towards achieving Net Zero emissions worldwide	-	Reflects an orderly global transition
+-	Assumes immediate action is taken to reduce emissions
+-	Aligns to 2015 Paris Agreement climate goals	-	Assumes countries implement their national targets in full and on time
+-	Reflects the gap between current targets and achieving universal energy access
+-	Aligns to 2015 Paris Agreement climate goals	-	Assumes that the moderate and heterogeneous climate ambition reflected in the conditional NDCs
+-	Warming associated with moderate to severe physical risks	-	No decline in CO2 or methane emissions
+-	Reflects a business-as-usual scenario based on current trajectories in emissions growth assuming no government policies	-	Emissions peak around 2040 then decline
+-	CO2 emissions start declining by 2045
+-	Methane emissions stop increasing by 2050 and decline by approximately 75% compared to 2040
+-	Requires negative CO2 emissions 
+Parameters
+Temperature	>2.5°C	>2.5°C	<1.5°C	<1.5°C	<1.7°C	<2.5°C	>4°C	2-3°C
+Emissions	31,979.1 Mt CO2 in 2050	34,318.72 Mt CO2 in 2050	0 Mt CO2 in 2050	-294.82 Mt CO2 in 2050	~11,000 Mt CO2 in 2050	26,673.76 Mt CO2 in 2050	Continues to increase	Global peak in 2040
+Sea level rise	-	-	-	-	-	-	0.63m of sea level rise	0.47m of sea level rise
+Energy systems	Renewable energy comprises 24% of global energy supply in 2050	Renewable energy comprises 24% of global energy supply in 2050	Renewable energy comprises 66% of global energy supply in 2050	Renewable energy comprises 59% of global energy supply in 2050	Renewable energy comprises 24% of global energy supply in 2050	Renewable energy comprises 24% of global energy supply in 2050	Dominated by fossil fuels, including coal and gas	Renewables with peaking gas
+Technology	Convenience and security drive innovation and is constrained by low economic growth	Slow technology change 	Globalisation and improvement in living standards drive innovation in the digital world	Fast technology change	Implementation of Net Zero pledges accelerate cost reductions and drive innovation	Slow technology change	No new technology	No new technology
+Limitations: These scenarios include forward-looking data based on assumptions and information known by the scenario providers at the date of this report. The forward-looking statements contained within this report derived from these climate scenarios are provided as a general guide only and are not guarantees. TM believes the expectations reflected in these statements are reasonable as at the date of this report, but acknowledge they involve known and unknown risks, uncertainties, and other factors, many of which are beyond the control of TM.

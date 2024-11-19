@@ -8,3 +8,5 @@ AI_MODELS = {
     "anthropic/claude-3-5-sonnet-latest", 
   ]
 }
+
+MAX_TOTAL_FILE_SIZE = 100 * 1024 * 1024  # 100 MB
