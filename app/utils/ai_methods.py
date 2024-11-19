@@ -2,6 +2,8 @@ import streamlit as st
 from streamlit import session_state as state
 
 import os
+import random
+import hashlib
 from time import time
 
 from langchain_community.document_loaders import (
@@ -93,6 +95,22 @@ def upload_form_for_rag():
             
 
 
+
+
+def get_document_hash(doc):
+    """
+    Generate a hash for a document based on its content and metadata.
+    Example:
+        doc = Document(page_content="Hello, world!", metadata={"source": "file.txt"})
+        get_document_hash(doc)
+        "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9_9b056818c0ac0d378d3f81d0"
+    """
+    content_hash = hashlib.sha256(doc.page_content.encode('utf-8')).hexdigest()
+    metadata_hash = hashlib.sha256(str(doc.metadata).encode('utf-8')).hexdigest()
+    return f"{content_hash}_{metadata_hash}"
+
+
+
 def load_doc_to_db():
     """
     From session state, load uploaded files as chunks, embed and index in vdb
@@ -139,8 +157,6 @@ def load_doc_to_db():
     if docs:
         split_and_load_docs(docs)
 
-        with st.expander('Loaded Documents', expanded=True):
-            st.write(doc.metadata['source'] for doc in docs)
 
 
     
@@ -164,7 +180,7 @@ def initialize_vector_db(docs):
     vector_db = Chroma.from_documents(
         documents=docs,
         embedding=embedding,
-        persist_directory=None,
+        persist_directory='chroma_db',
         collection_name=f"{str(time()).replace('.', '')[:14]}_" + state['session_id'],
     )
 
@@ -183,21 +199,39 @@ def initialize_vector_db(docs):
 def split_and_load_docs(docs):
     """
     """
+    if 'processed_chunks' not in state:
+        state['processed_chunks'] = set()
+
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=5000,
         chunk_overlap=1000,
     )
     document_chunks = text_splitter.split_documents(docs)
 
-    with st.expander('Loaded Documents', expanded=False):
-        st.write(f"Total Document Chunks: {len(document_chunks)}")
-        for i, chunk in enumerate(document_chunks[:5]):  # Display first 5 chunks
-            st.divider()
-            st.code(chunk.page_content)
-            st.code(chunk.metadata)
+    unique_chunks = []
+    for chunk in document_chunks:
+        chunk_hash = get_document_hash(chunk)
+        if chunk_hash not in state['processed_chunks']:
+            state['processed_chunks'].add(chunk_hash)
+            unique_chunks.append(chunk)
 
-    if state['vector_db'] == None:
-        state.vector_db = initialize_vector_db(docs)
+    with st.expander('Loaded Documents', expanded=False):
+        total_chunks = len(unique_chunks)
+        st.write(f"Total Document Chunks: {total_chunks}")
+
+        sample = min(5, total_chunks)
+        random_chunks = random.sample(range(total_chunks), sample)
+        for i, chunk in enumerate(random_chunks):  # Display first 5 chunks
+            st.divider()
+            st.code(unique_chunks[chunk].page_content)
+            st.code(unique_chunks[chunk].metadata)
+
+    if unique_chunks:
+        print("Adding new chunks to vector store")
+        if state['vector_db'] == None:
+            state.vector_db = initialize_vector_db(unique_chunks)
+        else:
+            state.vector_db.add_documents(unique_chunks)
     else:
-        state.vector_db.add_documents(document_chunks)
+        print("No new chunks to add to vector store")
 

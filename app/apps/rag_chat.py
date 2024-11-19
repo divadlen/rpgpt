@@ -43,6 +43,9 @@ def main():
 
 
 def inspect_chroma():
+    """
+    Inspects content of chunked files in vector db in st.expander
+    """
     if state['vector_db'] is not None:
         chroma_client = state['vector_db']._client
         collection_names = [col.name for col in chroma_client.list_collections()]
